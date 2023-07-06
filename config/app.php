@@ -43,6 +43,8 @@ return [
 
     'debug' => (bool) env('APP_DEBUG', false),
 
+    'Route' => "Illuminate\Support\Facades\Route",
+
     /*
     |--------------------------------------------------------------------------
     | Application URL

@@ -11,14 +11,14 @@
 
     <header>
         <div class="header">
-            <div class="icon__container">
-                <a href="/"><img class="header__icon" src="/assets/home.svg" alt="home-icon"></a>
+            <a href="/"><div class="icon__container">
+                <img class="header__icon" src="/assets/home.svg" alt="home-icon">
                 <h2>Home</h2>
-            </div>
-            <div class="icon__container">
-                <a href="/create"><img class="header__icon" src="/assets/add.svg" alt="home-icon"></a>
+            </div></a>
+            <a href="/create"><div class="icon__container">
+                <img class="header__icon" src="/assets/add.svg" alt="home-icon">
                 <h2>New</h2>
-            </div>       
+            </div></a>       
         </div>
     </header>
     @yield('content')

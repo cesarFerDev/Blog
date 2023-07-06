@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-Post
+{{$post->title}}
 @endsection
 @section('content')
 <section class="blog__cards__container">
