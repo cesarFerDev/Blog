@@ -1,0 +1,38 @@
+@import "../colors.scss";
+
+.header {
+    position: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: $first-color;
+    z-index: 1;
+}
+
+.icon__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.icon__container h2 {
+    color: #FFFFFF;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header__icon {
+    width: 70px;
+    margin: 0 5px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(7459%) hue-rotate(331deg) brightness(102%) contrast(98%);
+}
+
+.header__icon:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+@import "./colors.scss";
+
+.text {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: "Fjalla One";
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-family: "Manrope";
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.form__label__text {
+    font-family: "Fjalla One";
+    font-size: 24px;
+    color: $second-color;
+    margin-bottom: 5px;
+}
+
+.form-text {
+    font-family: "Manrope";
+    font-size: 18px;
+    color: $first-color;
+}

@@ -1,0 +1,17 @@
+
+.blog__cards__container {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 150px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+    .blog__cards__container {
+        grid-template-columns: 1fr;
+    }
+}

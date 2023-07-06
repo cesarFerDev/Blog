@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Manrope:wght@300;400&family=Oswald:wght@300;400;500;600&display=swap");
+@import "./header/header.css";
+@import "./footer/footer.css";
+@import "./entries/card.css";
+@import "./sections/blog-entries.css";
+@import "./sections/blog-details.css";
+@import "./sections/blog-form.css";
+@import "./text.css";
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #CBE4DE;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.swal2-popup {
+  font-family: "Manrope";
+}/*# sourceMappingURL=styles.css.map */

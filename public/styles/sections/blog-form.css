@@ -1,0 +1,38 @@
+.blog__form__container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 5%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 1px #2C3333;
+  margin-bottom: 100px;
+}
+
+.blog__input {
+  border: none;
+  border-bottom: 2px solid #0E8388;
+  margin-bottom: 30px;
+}
+
+.form__btn {
+  border: none;
+  background-color: #2E4F4F;
+  width: 25%;
+  min-width: 150px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border-radius: 12px;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .blog__form__container {
+    width: 80%;
+  }
+}/*# sourceMappingURL=blog-form.css.map */
